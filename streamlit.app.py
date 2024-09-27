@@ -11,8 +11,8 @@ def load_pickle(file):
         obj = pickle.load(f)
     return obj
 
-histone_abundances = load_pickle('/home/andy/MyStuff/PhD/Recovery.Final/streamlit_data/histone_abundances.pkl')
-histone_abundances_PRC2 = load_pickle('/home/andy/MyStuff/PhD/Recovery.Final/streamlit_data/histone_abundances_PRC2.pkl')
+histone_abundances = load_pickle('histone_abundances.pkl')
+histone_abundances_PRC2 = load_pickle('histone_abundances_PRC2.pkl')
 
 col1, col2 = st.columns([1, 4])
 
