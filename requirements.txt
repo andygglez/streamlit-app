@@ -1,0 +1,7 @@
+cloudpickle @ file:///croot/cloudpickle_1683040006038/work
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+numpydoc @ file:///work/ci_py311/numpydoc_1676845056742/work
+pandas==1.5.3
+plotly @ file:///opt/conda/envs/env/conda-bld/plotly_1698259245963/work/packages/python/plotly/dist/plotly-5.18.0.tar.gz
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+streamlit==1.38.0
