@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import pandas as pd
 import plotly.graph_objects as go
 import pickle
 
@@ -14,8 +15,8 @@ st.write("""
     This is an analysis on how changes in abundance on logFC in different histone marks can affect the logFC of genes.
     """)
 
-histone_abundances = load_pickle('data/streamlit_data/histone_abundances.pkl')
-histone_abundances_PRC2 = load_pickle('data/streamlit_data/histone_abundances_PRC2.pkl')
+histone_abundances = pd.read_csv('data/histone_abundances.csv')
+histone_abundances_PRC2 = pd.read_csv('data/histone_abundances_PRC2.csv')
 
 col1, col2 = st.columns([1, 4])
 
