@@ -17,8 +17,8 @@ st.write("""
     This is an analysis on how changes in abundance on logFC in different histone marks can affect the logFC of genes.
     """)
 
-histone_abundances = load_pickle('/home/andy/MyStuff/PhD/Recovery.Final/streamlit_data/histone_abundances.pkl')
-histone_abundances_PRC2 = load_pickle('/home/andy/MyStuff/PhD/Recovery.Final/streamlit_data/histone_abundances_PRC2.pkl')
+histone_abundances = load_pickle('histone_abundances.pkl')
+histone_abundances_PRC2 = load_pickle('histone_abundances_PRC2.pkl')
 
 col1, col2 = st.columns([1, 4])
 
