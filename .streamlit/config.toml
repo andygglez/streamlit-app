@@ -1,0 +1,7 @@
+[theme]
+textColor = 'black'
+font = 'Ubuntu'
+base = 'light'
+
+[server]
+runOnSave = true
