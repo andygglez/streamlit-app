@@ -3,10 +3,7 @@ import numpy as np
 import plotly.graph_objects as go
 import pickle
 
-# (4.174192344348152, -1.7058662557526376)
-# (4.333155021996332, -2.225163385950435)
-
-st.title('Comparing changes of different histone marks with gene expression changes')
+st.title('Comparing changes of different histone marks with gene expression changes...!')
 
 def load_pickle(file):
     with open(file, 'rb') as f:
