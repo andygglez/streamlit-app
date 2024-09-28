@@ -1,5 +1,1 @@
-streamlit==1.38.0
-pandas==1.5.3
 plotly==5.18.0
-numpy==1.24.3
-pickle==4.0
