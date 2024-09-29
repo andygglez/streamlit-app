@@ -14,8 +14,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
 st.markdown("""
     <style>
+        .css-79elbk{
+            display: none;
+        }
         .st-emotion-cache-79elbk{
             display: none;
         }
