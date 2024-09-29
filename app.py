@@ -19,15 +19,20 @@ st.markdown("""
     <style>
         .css-79elbk{
             display: none;
-        }
+        } /**/
         .st-emotion-cache-79elbk{
             display: none;
         }
+        .e1fqkh3o4{
+            margin-top: 30px;
+        }
+        
         .justified-text {
         text-align: justify;
+        min-width: 450px;
         font-size: 18px; /* Adjust size as needed */
         line-height: 1.6; /* Line height for better readability */
-    }
+        }
     </style>
     """, unsafe_allow_html=True)
 
