@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-# from st_speckmol import speck_plot
-import glob
 
 import streamlit as st
 from streamlit_option_menu import option_menu
